@@ -1,15 +1,16 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export default styles = StyleSheet.create({
     container: {
         flex: 1
     },
     header: {
-        padding: 15
+        padding: 15,
+        
     },
     titleHeader: {
         marginTop: 17,
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         fontSize: 23
     },
     menu: {
@@ -17,8 +18,8 @@ export default styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-around'
     }
-    ,viewAnalys:{
-        marginTop: 20,
+    , viewAnalys: {
+        marginTop: 5,
         flexDirection: 'row-reverse',
     },
     titleMenu: {
@@ -68,5 +69,22 @@ export default styles = StyleSheet.create({
         marginTop: 20,
         marginLeft: 20,
         marginRight: 20
+    },
+    active_question: {
+        backgroundColor: "#00817C",
+    },
+    question: {
+        backgroundColor: "white",
+    },
+    active_chon: {
+        //borderColor: '#00817C',
+        backgroundColor: 'white',
+        elevation: 3,
+        borderRadius: 180,
+        width: 30,
+        height: 30,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginRight: 15
     }
 })
